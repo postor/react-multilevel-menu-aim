@@ -7,7 +7,7 @@ react version for https://github.com/kamens/jQuery-menu-aim
 ```
 <MenuAim>
   <ul>
-    {}<Menu>
+    <Menu>
       <li>
         <a href="#">a</a>
         <SubMenuPanel>

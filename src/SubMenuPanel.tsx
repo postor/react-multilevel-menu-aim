@@ -1,6 +1,7 @@
+import { cloneElement } from "react"
 import { menuCtx } from "./ctx"
 
 export const SubMenuPanel = ({ children }) => {
-  let { showSubMenu } = menuCtx.useCtx()
-  return showSubMenu ? children : null
+  let { showSubMenu, panelRef } = menuCtx.useCtx()
+  return showSubMenu ? cloneElement(children, { ref: panelRef }) : null
 }

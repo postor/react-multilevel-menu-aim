@@ -6,6 +6,8 @@ react version for https://github.com/kamens/jQuery-menu-aim
 
 ## usage
 
+https://codesandbox.io/s/react-multilevel-menu-aim-kiosr
+
 ```
 import { MenuAim, Menu, SubMenuPanel } from 'react-multilevel-menu-aim'
 

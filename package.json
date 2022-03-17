@@ -1,6 +1,6 @@
 {
   "name": "react-multilevel-menu-aim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react version for https://github.com/kamens/jQuery-menu-aim",
   "main": "dist/index.js",
   "scripts": {
